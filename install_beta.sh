@@ -11,14 +11,11 @@ show_menu() {
     echo "4) exit"
 }
 
-# Main loop to keep the menu running until the user chooses to exit
 while true; do
-    show_menu  # Display the menu
+    show_menu
 
-    # Read the user's choice
     read -p "please choose an option (1-4): " choice
 
-    # Handle the user's choice
     case $choice in
         1)
             clear
