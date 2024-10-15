@@ -3,12 +3,14 @@
 clear
 
 show_menu() {
+    echo "by cotton.rip"
     echo "shelter installer for linux"
     echo ""
     echo "1) install"
     echo "2) apply / update"
     echo "3) uninstall"
     echo "4) exit"
+    echo "5) open github repository"
 }
 
 while true; do
@@ -67,6 +69,10 @@ while true; do
             echo "exiting..."
             exit 0  # Exit the script
             ;;
+        5)
+            echo "opening in browser..."
+            xdg-open "https://github.com/cottonrip/shelter-installer/"
+            exit 0
         *)
             echo "invalid option. please try again."
             ;;
