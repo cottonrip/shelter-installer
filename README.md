@@ -17,4 +17,4 @@ you need to run the script as root because normal user doesnt have access to dis
 
 # shelter is NOT MINE
 it's made by uwu.network
-(uwu/shelter)[https://github.com/uwu/shelter]
+[uwu/shelter](https://github.com/uwu/shelter)
