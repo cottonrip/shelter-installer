@@ -40,13 +40,19 @@ while true; do
             clear
                 echo "killing discord..."
                 killall --quiet discord
-                echo ""
+                echo "checking if app.asar is renamed..."
+                    if [ ! -e "/opt/discord/resources/app.asar/" ]; then
+                    echo "it is!
+                    cd "/opt/discord/resources/"
+                    mv app.asar original.asar
+                    fi
+                echo "applying..."
                 rm "/opt/discord/resources/app"
                 mkdir "/opt/discord/resources/app"
                 wget --quiet -O "/opt/discord/resources/app/index.js" "https://raw.githubusercontent.com/uwu/shelter/refs/heads/main/injectors/desktop/app/index.js"
                 wget --quiet -O "/opt/discord/resources/app/package.json" "https://raw.githubusercontent.com/uwu/shelter/refs/heads/main/injectors/desktop/app/package.json"
                 wget --quiet -O "/opt/discord/resources/app/preload.js" "https://raw.githubusercontent.com/uwu/shelter/refs/heads/main/injectors/desktop/app/preload.js"
-                echo "shelter successfully installed. you can now open Discord. quitting..."
+                echo "shelter successfully updated. you can now open Discord. quitting..."
             sleep 1
             exit 0
             ;;
@@ -61,11 +67,11 @@ while true; do
             exit 0
             ;;
         4)
-            echo "Exiting..."
+            echo "exiting..."
             exit 0  # Exit the script
             ;;
         *)
-            echo "Invalid option. Please try again."
+            echo "invalid option. please try again."
             ;;
     esac
 done
