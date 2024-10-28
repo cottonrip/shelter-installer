@@ -11,7 +11,7 @@ uwu/shelter installer for linux
 3) uninstall
     - self-explanatory lol
 
-you need to run the script as root because normal user doesnt have access to discords folder.
+you need to run the script as root because normal user doesn't have access to discords folder.
 
 ⚠️ i am NOT RESPONSIBLE for any harm caused to your system or for getting you banned from discord (client modifications are against discords ToS) ⚠️
 
