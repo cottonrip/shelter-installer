@@ -1,8 +1,7 @@
 ## PROJECT WILL NO LONGER BE MAINTAINED
 i don't use linux anymore so yeah
-still should work tho
-i will update it if there will be some major changes
-just open an issue if it won't work
+
+it will be updated if there will be some major changes in the way of installing shelter
 
 # --------------
 
