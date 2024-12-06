@@ -1,7 +1,5 @@
 ## PROJECT WILL NO LONGER BE MAINTAINED
-i don't use linux anymore so yeah
-
-it will be updated if there will be some major changes in the way of installing shelter
+i don't use linux anymore, and uwu made installer for all platforms so yeah, it's useless now
 
 # --------------
 
